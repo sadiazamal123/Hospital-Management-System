@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+
+
+    <servlet>
+        <servlet-name>create_employee</servlet-name>
+        <servlet-class>Servlets.create_employee</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>create_employee</servlet-name>
+        <url-pattern>/create_employee-servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>create_receptionist</servlet-name>
+        <servlet-class>Servlets.create_receptionist</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>create_receptionist</servlet-name>
+        <url-pattern>/create_receptionist-servlet</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>create_doctor</servlet-name>
+        <servlet-class>Servlets.create_doctor</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>create_doctor</servlet-name>
+        <url-pattern>/create_doctor-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>update_doctor</servlet-name>
+        <servlet-class>Servlets.update_doctor</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>update_doctor</servlet-name>
+        <url-pattern>/update_doctor-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>update_nurse</servlet-name>
+        <servlet-class>Servlets.update_nurse</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>update_nurse</servlet-name>
+        <url-pattern>/update_nurse-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>modify_doctor</servlet-name>
+        <servlet-class>Servlets.modify_doctor</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>modify_doctor</servlet-name>
+        <url-pattern>/modify_doctor-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>modify_nurse</servlet-name>
+        <servlet-class>Servlets.modify_nurse</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>modify_nurse</servlet-name>
+        <url-pattern>/modify_nurse-servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>create_nurse</servlet-name>
+        <servlet-class>Servlets.create_nurse</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>create_nurse</servlet-name>
+        <url-pattern>/create_nurse-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>create_patient</servlet-name>
+        <servlet-class>Servlets.create_patient</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>create_patient</servlet-name>
+        <url-pattern>/create_patient-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>update_patient</servlet-name>
+        <servlet-class>Servlets.create_patient</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>update_patient</servlet-name>
+        <url-pattern>/update_patient-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>create_record</servlet-name>
+        <servlet-class>Servlets.create_record</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>create_record</servlet-name>
+        <url-pattern>/create_record-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>search_doctor</servlet-name>
+        <servlet-class>Servlets.search_doctor</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>search_doctor</servlet-name>
+        <url-pattern>/search_doctor-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>search_nurse</servlet-name>
+        <servlet-class>Servlets.search_nurse</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>search_nurse</servlet-name>
+        <url-pattern>/search_nurse-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>modify_patient</servlet-name>
+        <servlet-class>Servlets.modify_patient</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>modify_patient</servlet-name>
+        <url-pattern>/modify_patient-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>create_bill</servlet-name>
+        <servlet-class>Servlets.create_bill</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>create_bill</servlet-name>
+        <url-pattern>/create_bill-servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>create_govern</servlet-name>
+        <servlet-class>Servlets.create_govern</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>create_govern</servlet-name>
+        <url-pattern>/create_govern-servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>create_room</servlet-name>
+        <servlet-class>Servlets.create_room</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>create_room</servlet-name>
+        <url-pattern>/create_room-servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>create_allocate</servlet-name>
+        <servlet-class>Servlets.create_allocate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>create_allocate</servlet-name>
+        <url-pattern>/create_allocate-servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>create_attend</servlet-name>
+        <servlet-class>Servlets.create_attend</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>create_attend</servlet-name>
+        <url-pattern>/create_attend-servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>update_employee</servlet-name>
+        <servlet-class>Servlets.update_employee</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>update_employee</servlet-name>
+        <url-pattern>/update_employee-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>modify_employee</servlet-name>
+        <servlet-class>Servlets.modify_employee</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>modify_employee</servlet-name>
+        <url-pattern>/modify_employee-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>search_employee</servlet-name>
+        <servlet-class>Servlets.search_employee</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>search_employee</servlet-name>
+        <url-pattern>/search_employee-servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>search_patient</servlet-name>
+        <servlet-class>Servlets.search_patient</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>search_patient</servlet-name>
+        <url-pattern>/search_patient-servlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>search_receptionist</servlet-name>
+        <servlet-class>Servlets.search_receptionist</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>search_receptionist</servlet-name>
+        <url-pattern>/search_receptionist-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>summary_employee</servlet-name>
+        <servlet-class>Servlets.summary_employee</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>summary_employee</servlet-name>
+        <url-pattern>/summary_employee-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>summary_nurse</servlet-name>
+        <servlet-class>Servlets.summary_nurse</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>summary_nurse</servlet-name>
+        <url-pattern>/summary_nurse-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>summary_receptionsit</servlet-name>
+        <servlet-class>Servlets.summary_receptionsit</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>summary_receptionsit</servlet-name>
+        <url-pattern>/summary_receptionsit-servlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>delet_employee</servlet-name>
+        <servlet-class>Servlets.delet_employee</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delet_employee</servlet-name>
+        <url-pattern>/delet_employee-servlet</url-pattern>
+    </servlet-mapping>
+</web-app>
